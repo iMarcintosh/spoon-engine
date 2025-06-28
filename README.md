@@ -2,6 +2,21 @@
 
 A modern, professional-grade multiplatform 2D/3D game engine written in C++ with Entity Component System (ECS) architecture. Built with production-quality rendering pipeline including advanced features like shadow mapping, material systems, and framebuffer-based render targets.
 
+## 🚀 Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/iMarcintosh/spoon-engine.git
+cd spoon-engine
+
+# Build the engine
+mkdir build && cd build
+cmake .. && make -j$(nproc)
+
+# Run the professional scene editor
+./bin/SpoonEditor
+```
+
 ## 🎯 Key Features
 
 ### **Core Engine Architecture**
@@ -112,7 +127,7 @@ A modern, professional-grade multiplatform 2D/3D game engine written in C++ with
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/iMarcintosh/spoon-engine.git
 cd spoon-engine
 
 # Create build directory
