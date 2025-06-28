@@ -1,0 +1,136 @@
+# SpoonEngine - Git Ignore Configuration
+
+# Build directories
+build/
+bin/
+lib/
+out/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# IDE and Editor files
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.sln.docstates
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs (CLion, etc.)
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+xcuserdata/
+
+# OS generated files
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+*.cache
+*.swp
+*.swo
+*~
+.#*
+
+# ImGui configuration (user-specific)
+imgui.ini
+
+# Compiler and linker outputs
+*.o
+*.obj
+*.exe
+*.dll
+*.dylib
+*.so
+*.a
+*.lib
+*.pdb
+*.ilk
+*.exp
+
+# Package managers
+vcpkg_installed/
+packages/
+node_modules/
+
+# Scene files (optional - uncomment if you don't want to track scene files)
+# scenes/*.spoon
+
+# Asset cache (if implemented)
+.asset_cache/
+.cache/
+
+# Profiling and debugging
+*.gprof
+*.prof
+*.trace
+callgrind.out.*
+massif.out.*
+
+# Documentation generated files
+docs/html/
+docs/latex/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Archive files (unless specifically needed)
+*.zip
+*.tar.gz
+*.rar
+*.7z
