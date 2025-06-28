@@ -1,0 +1,93 @@
+{
+  "scene": {
+    "name": "SpoonEngine Scene",
+    "version": "1.0",
+    "entities": [
+      {
+        "id": 1,
+        "components": {
+          "Transform": {
+            "position": [0, 0, 0],
+            "rotation": [0, 0, 0],
+            "scale": [1, 1, 1]
+          },
+          "MeshRenderer": {
+            "meshType": "cube",
+            "castShadows": true,
+            "receiveShadows": true,
+            "materialName": "default",
+            "materialColor": [0.8, 0.3, 0.3]
+          }
+        }
+      },
+      {
+        "id": 2,
+        "components": {
+          "Transform": {
+            "position": [3, 0, 0],
+            "rotation": [0, 0, 0],
+            "scale": [1, 1, 1]
+          },
+          "MeshRenderer": {
+            "meshType": "cube",
+            "castShadows": true,
+            "receiveShadows": true,
+            "materialName": "default",
+            "materialColor": [0.8, 0.3, 0.3]
+          }
+        }
+      },
+      {
+        "id": 3,
+        "components": {
+          "Transform": {
+            "position": [-3, 0, 0],
+            "rotation": [0, 0, 0],
+            "scale": [1, 1, 1]
+          },
+          "MeshRenderer": {
+            "meshType": "cube",
+            "castShadows": true,
+            "receiveShadows": true,
+            "materialName": "default",
+            "materialColor": [0.8, 0.3, 0.3]
+          }
+        }
+      },
+      {
+        "id": 4,
+        "components": {
+          "Transform": {
+            "position": [0, 0, 3],
+            "rotation": [0, 0, 0],
+            "scale": [1, 1, 1]
+          },
+          "MeshRenderer": {
+            "meshType": "cube",
+            "castShadows": true,
+            "receiveShadows": true,
+            "materialName": "default",
+            "materialColor": [0.8, 0.3, 0.3]
+          }
+        }
+      },
+      {
+        "id": 5,
+        "components": {
+          "Transform": {
+            "position": [0, 0, -3],
+            "rotation": [0, 0, 0],
+            "scale": [1, 1, 1]
+          },
+          "MeshRenderer": {
+            "meshType": "cube",
+            "castShadows": true,
+            "receiveShadows": true,
+            "materialName": "default",
+            "materialColor": [0.8, 0.3, 0.3]
+          }
+        }
+      }
+    ]
+  }
+}
